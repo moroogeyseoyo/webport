@@ -96,37 +96,37 @@
 @font-face {
     font-family: "hunters";
     font-weight: 400;
-    src: url("../font/Hunters.otf") format("opentype");
+    src: url("../font/Hunters.otf");
 }
 
 @font-face {
     font-family: 'Pretendard';
     font-weight: 300;
-    src: url("../font/Pretendard-Light.woff") format("woff");
+    src: url("../font/Pretendard-Light.woff");
 }
 
 @font-face {
     font-family: 'Pretendard';
     font-weight: 400;
-    src: url("../font/Pretendard-Regular.woff") format("woff");
+    src: url("../font/Pretendard-Regular.woff");
 }
 
 @font-face {
     font-family: 'Pretendard';
     font-weight: 500;
-    src: url("../font/Pretendard-Medium.woff") format("woff");
+    src: url("../font/Pretendard-Medium.woff");
 }
 
 @font-face {
     font-family: 'Pretendard';
     font-weight: 600;
-    src: url("../font/Pretendard-SemiBold.woff") format("woff");
+    src: url("../font/Pretendard-SemiBold.woff");
 }
 
 @font-face {
     font-family: 'Pretendard';
     font-weight: 700;
-    src: url("../font/Pretendard-Bold.woff") format("woff");
+    src: url("../font/Pretendard-Bold.woff");
 }
 
 /* ------------------------------------------------------------------- 
