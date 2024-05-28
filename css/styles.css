@@ -96,7 +96,7 @@
 @font-face {
     font-family: "hunters";
     font-weight: 400;
-    src: url("/font/Hunters.otf") format("opentype");
+    src: url("font/Hunters.otf") format("opentype");
 }
 
 @font-face {
