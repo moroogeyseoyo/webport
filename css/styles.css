@@ -4411,6 +4411,7 @@ button.btn--pill {
     height: 90vh;
     width: 1400px;
     background-color: white;
+    font-family: Pretendard;
     font-size: calc(var(--text-size) * 0.9444);
     line-height: 1.647;
     overflow-y: auto;
