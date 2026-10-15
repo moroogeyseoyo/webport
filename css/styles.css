@@ -4587,6 +4587,57 @@ button.btn--pill {
     color: white;
 }
 
+/* ------------------------------------------------------------------- 
+ * ## ai img
+ * ------------------------------------------------------------------- */
+.ai_wrap {
+    display: inline-block;
+    justify-content: center;
+    padding: 30px;
+}
+.ai_inner{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 50px 50px 50px;
+    width: 100%;
+    height: 100%;
+}
+.ai_img {
+    width: 58%;
+    height: 58%;
+}
+.ai_des{
+    width: 40%;
+    height: 400px;    
+}
+.ai_details{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+.ai_details[open]{
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+.ai_summary{
+    position: sticky;
+    cursor: pointer;
+    top: 0;
+    z-index: 10;
+    background: white;
+    margin-bottom: 6px;
+}
+.ai_title{
+    font-size: 28px !important;
+    font-weight: bold;
+}
+.ai_text p{
+    margin: 4px 0;
+}
+.ai_subt{
+    font-weight: 700;
+}
+
 
 /* ===================================================================
  * # CTA
@@ -5050,6 +5101,57 @@ button.btn--pill {
         width: 100%;
         text-align: left;
         margin-top: 5rem;
+    }
+
+    .ai_wrap {        
+        display: grid;
+        justify-content: center;
+        padding: 15px;
+    }
+    .ai_inner{        
+        display: grid;
+        justify-content: center;
+        width: 100%;
+        height: auto;
+        padding: 50px 0 450px 0;
+    }
+    .ai_img {
+        display: block;
+        width: 100%;
+        height: auto;
+    }
+    .ai_des{
+        width: 100%;
+        height: 400px;    
+        min-width: 0;
+    }
+    .ai_details{
+        width: 100%;
+        height: 100%;
+        box-sizing: border-box;
+        overflow: hidden;
+    }
+    .ai_details[open]{
+        overflow-y: auto;
+        overflow-x: hidden;
+    }
+    .ai_summary{
+        position: sticky;
+        cursor: pointer;
+        top: 0;
+        z-index: 10;
+        background: white;
+        margin-bottom: 6px;
+    }
+    .ai_title{
+        font-size: 28px !important;
+        font-weight: bold;
+    }
+    .ai_text p{
+        margin: 4px 0;
+    }
+    .ai_subt{
+        font-weight: 700;
     }
 
 }
