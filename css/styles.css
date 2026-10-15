@@ -5113,7 +5113,8 @@ button.btn--pill {
         justify-content: center;
         width: 100%;
         height: auto;
-        padding: 50px 0 450px 0;
+        padding: 50px 0 400px 0;
+        margin-bottom: 80px;
     }
     .ai_img {
         display: block;
